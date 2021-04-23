@@ -7,21 +7,6 @@ const Manager = {
     job: 'Software Engineer'
 }
 
-const Manager2Level = {
-    name: 'Guillermina',
-    company: 'Telefonica',
-    edad:30,
-    job: 'Software Engineer'
-}
-
-
-var Empleado_private = {
-
-    name: 'Francisca',
-    edad: 21,
-    job:'Recepcionista'
-}
-
 const Interno = {
     name: 'Francisco',
     edad: 21,
@@ -42,15 +27,11 @@ Interno.sayHello = sayHello;
 Manager.myAge = myAge;
 Interno.myAge = myAge;
 
-Manager.salary = 30000;
-Manager2Level.schedule = 'flexible';
-
 console.log('Manager', Manager)
-Manager.sayHello();
-Manager.myAge();
+console.log('Manager', Manager.sayHello)
+console.log('Manager', Manager.myAge)
 
 
 console.log('Interno', Interno)
-Interno.sayHello();
-Interno.myAge();
-
+console.log('Interno', Interno.sayHello)
+console.log('Interno', Interno.myAge)
