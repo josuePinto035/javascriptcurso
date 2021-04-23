@@ -14,7 +14,9 @@ const Manager2Level = {
     job: 'Software Engineer'
 }
 
-Var Empleado_private = {
+
+var Empleado_private = {
+
     name: 'Francisca',
     edad: 21,
     job:'Recepcionista'
