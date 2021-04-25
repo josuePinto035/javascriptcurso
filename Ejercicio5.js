@@ -15,3 +15,4 @@ const countVowels = (counter) =>  {
 
 //console.log(replaceConvertToLowerCase(test));
 console.log('\n' + 'Number of vowels in string is: ',  countVowels(replaceConvertToLowerCase(test)) + '\n');
+
